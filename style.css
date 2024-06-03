@@ -1,5 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Dosis:wght@200..800&display=swap');
+
+/* Netflix Color Palette */
+:root {
+    --light-red: #db0000;
+    --white: #ffffff;
+    --black: #000000;
+    --gray: #564d4d;
+    --dark-red: #831010;
+  }
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color: var(--white);
 }
+
+body{
+    font-family: 'Acme', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.navbar{
+    width: 100vw;
+    background-color: var(--black);
+    position: fixed;
+}
+
+.container{
+    display: flex;
+    max-width: 1160px;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding: 1rem 0;
+    align-items: center;
+}
+
+.navbar ul{
+    display: flex;
+}
+
+.navbar ul a{
+    margin-left: 1rem;
+}
+
+.navbar ul a:hover{
+    color: var(--light-red);
+}
+
+.title{
+    color: var(--light-red);
+}
+
+/* Hero Section */
